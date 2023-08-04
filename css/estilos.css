@@ -108,6 +108,13 @@ body#imagen {
   }
   /*fin imagen inicio*/
 
+
+  body#imagen1 {
+    background-color: #cecdcd;
+    background-position: 0px 50px ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
   /*footer*/
  
   
@@ -303,3 +310,4 @@ input[type="submit"]:hover {
   max-width: 75%;
   
 }
+
