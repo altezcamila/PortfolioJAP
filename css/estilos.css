@@ -110,7 +110,7 @@ body#imagen {
 
 
   body#imagen1 {
-    background-color: #cecdcd;
+    background-color: #ffffff;
     background-position: 0px 50px ;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -311,3 +311,15 @@ input[type="submit"]:hover {
   
 }
 
+/* Cambiar tamaño del texto al pasar el mouse */
+/* Agrega el estilo para el título activo */
+.tituloInicio {
+  font-size: 80px;
+  /* Otros estilos si los tienes */
+  transition: font-size 0.3s ease; /* Añade una transición suave al cambio de tamaño */
+}
+
+/* Cambiar tamaño del texto al pasar el mouse */
+.tituloInicio:hover {
+  font-size: 90px;
+}
